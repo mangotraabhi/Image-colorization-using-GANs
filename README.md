@@ -24,6 +24,12 @@ The dataset used for this project consists of pairs of grayscale and color image
 - **Size:** All images were resized to 256x256 pixels.
 - **Normalization:** Pixel values were normalized to the range [0, 1].
 
+### Download Dataset
+
+You can download the dataset from Kaggle using the following link:
+
+[Landscape Image Colorization Dataset](https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization)
+
 ### Directory Structure
 
 - `/content/landscape Images/color`: Contains color images.
@@ -92,20 +98,21 @@ This project requires the following libraries:
 ## Usage
 
 1. Clone the repository and navigate to the project directory.
-2. Ensure the dataset is placed in the appropriate directory structure.
-3. Install the required dependencies:
+2. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization) and place it in the appropriate directory structure.
+3. Ensure the dataset is placed in the appropriate directory structure.
+4. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the training script:
+5. Run the training script:
 
    ```bash
    python train.py
    ```
 
-5. Evaluate the model and visualize results:
+6. Evaluate the model and visualize results:
 
    ```bash
    python evaluate.py
